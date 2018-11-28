@@ -14,9 +14,36 @@ body {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   background-image: url(img/cat.jpg);
+}
 
+img {
+  max-width: 100%;
+  height:auto;
+}
+.container {
+  width: 95%
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 2px;
+  padding: .5em 1.75em;
 
 }
+.button-accent{
+  color: white;
+}
+.button-accent:hover,
+.button-accent:focus{
+  background: grey;
+  color: white;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -35,6 +62,12 @@ nav a {
   font-size: .8rem;
   color: #FFF;
 }
+nav a:hover,
+nav a:focus {
+  color:#DDD;
+}
+
+
 .Glamping-first {
 
 padding: 10em 0;
