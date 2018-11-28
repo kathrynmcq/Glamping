@@ -1,1 +1,41 @@
-css
+
+*{
+  box-sizing: border-box;
+}
+header {
+  position: absolute;
+  margin: 2em;
+  left: 0;
+  righ:0;
+
+}
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-image: url(img/cat.jpg);
+
+
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+nav a {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .5em;
+  font-size: .8rem;
+  color: #FFF;
+}
+.Glamping-first {
+
+padding: 10em 0;
+}
