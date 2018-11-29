@@ -6,22 +6,47 @@ header {
   font:arial;
 }
 
-a {
-  color: white;
-}
-h1 {
-  font-size: 70px;
+
+
+ul {
+  padding:10px;
+  background: beige;
+  color: black;
+  font-weight: bold;
   font-family: monospace;
+  font-size: 20px;
+}
+nav li {
+	display: inline-block;
+	margin: 1em;
+}
+nav a {
+	font-weight: 900;
+	text-decoration: none;
+	padding: .5em;
+	text-transform: uppercase;
+	color: white;
+
+}
+
+nav a:hover,
+nav a:focus {
+	color: orange;
+}
+
+
+h1 {
+  font-size: 30px;
+  font-family: monospace;
+  text-color: orange;
 }
 h2 {
   font-family: monospace;
-  font-size: 30px;
+  font-size: 15px;
 }
-p1 {
-  font-family: sans-serif;
-  font:helvetica;
-  font-size: 14px;
-  text-align:center;
+h3 {
+  font-family: monospace;
+  font-size: 15px;
 }
 p2 {
   font-family: sans-serif;
@@ -31,17 +56,8 @@ p2 {
 }
 img {
   align-items: center;}
-ul {padding:10px;
-  background: beige;
-  color: black;
-  font-weight: bold;
-  font-family: monospace;
-  font-size: 20px;
-}
-li {
-  display:inline;
-  padding: 0px 40px 0px 40px;
-}
+
+
 .column {
   flex: 50%
   padding:4px 4px;
