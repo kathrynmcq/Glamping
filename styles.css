@@ -1,74 +1,70 @@
-
-*{
-  box-sizing: border-box;
-}
 header {
-  position: absolute;
-  margin: 2em;
-  left: 0;
-  righ:0;
-
-}
-body {
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  background-image: url(img/cat.jpg);
+  text-align:center;
+  background-size: cover;
+  color:black;
+  background-color: beige;
+  font:arial;
 }
 
-img {
-  max-width: 100%;
-  height:auto;
-}
-.container {
-  width: 95%
-  margin: 0 auto;
-}
 
-.button {
-  display: inline-block;
-  font-size: 1.15rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-style: solid;
-  border-width: 2px;
-  padding: .5em 1.75em;
 
-}
-.button-accent{
-  color: white;
-}
-.button-accent:hover,
-.button-accent:focus{
-  background: grey;
-  color: white;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
+ul {
+  padding:10px;
+  background: beige;
+  color: black;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
 }
 nav li {
-  display: inline-block;
-  margin: 1em;
+	display: inline-block;
+	margin: 1em;
 }
 nav a {
-  font-weight: 900;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: .5em;
-  font-size: .8rem;
-  color: #FFF;
+	font-weight: 900;
+	text-decoration: none;
+	padding: .5em;
+	text-transform: uppercase;
+	color: white;
+
 }
+
 nav a:hover,
 nav a:focus {
-  color:#DDD;
+	color: orange;
 }
 
 
-.Glamping-first {
+h1 {
+  font-size: 30px;
+  font-family: monospace;
+  text-color: orange;
+}
+h2 {
+  font-family: monospace;
+  font-size: 15px;
+}
+h3 {
+  font-family: monospace;
+  font-size: 15px;
+}
+p2 {
+  font-family: sans-serif;
+  font:helvetica;
+  font-size: 14px;
+  text-align:center;
+}
+img {
+  align-items: center;}
 
-padding: 10em 0;
+
+.column {
+  flex: 50%
+  padding:4px 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 650px;
+  height: 500px;
 }
